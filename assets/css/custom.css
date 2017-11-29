@@ -1,0 +1,203 @@
+body{
+    background-color:rgb(46,54,63);
+}
+/**/
+.dashboard {
+    text-align: center;
+    color: white;
+    background-color:#27A9E3;
+    list-style: none;
+    padding:30px 10px 30px 10px;
+    font-size:12px;
+}
+.dashboard a{
+    color: white;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+.dashboard:hover{
+    color: white;
+    background-color:rgba(39, 169, 227, 0.54);
+}
+.chart {
+    text-align: center;
+    color: white;
+    background-color:#28B779;
+    list-style: none;
+    padding:30px 10px 30px 10px;
+    font-size:12px;
+}
+.chart a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.chart:hover{
+    color: white;
+    background-color:rgba(40, 183, 121, 0.55);
+}
+.widgets {
+    text-align: center;
+    color: white;
+    background-color:#ffb848;
+    list-style: none;
+    padding:30px 10px 30px 10px;
+    font-size:12px;
+}
+.widgets a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.widgets:hover{
+    color: white;
+    background-color:rgba(255, 184, 72, 0.54);
+}
+.tables{
+    text-align: center;
+    color: white;
+    background-color:#da9628;
+    list-style: none;
+    padding:30px 10px 30px 10px;
+    font-size:12px;
+}
+.tables a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tables:hover{
+    color: white;
+    background-color:rgba(218, 150, 40, 0.51);
+
+}
+/**/
+/* Sidebar Navigation Start */
+.navbar-inverse{
+    background-color:#2E363F;
+    border-color:transparent;
+    border-radius:0px;
+
+}
+.nav{
+    border:0px;
+}
+.nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    color:darkgray;
+    font-size: 12px;
+}
+.nav > li > a:hover{
+
+    background-color:#27A9E3; 
+    color: white;
+}
+.nav .active a{
+    background-color:#27A9E3;
+}
+.nav .active a{
+    background-color:#27A9E3;
+    color: white;
+    border: transparent;
+}
+
+.nav .active  a:hover{
+    background-color:rgba(39, 169, 227, 0.55);
+    color: white;
+
+
+}
+.navbar > ul > li > a > .label {
+    background-color:#F66;
+}
+
+.navbar > ul > li > a > .label {
+    margin: 0 20px 0 0;
+    float: right;
+    padding: 3px 5px 2px;
+}
+/*dropdown menu start*/
+
+/*dropdown menu start*/
+#sidebar{
+    height: 500px;
+}
+
+
+#sidebar > ul > li {
+    border-top: 1px solid #37414b; 
+    border-bottom: 1px solid #1f262d;
+}
+#sidebar > ul > li a {
+    font-size: 12px;
+}
+#sidebar > ul > li.active {
+
+    border-bottom: 1px solid; 
+    border-top: 1px solid;
+}
+
+
+
+/* Sidebar Navigation End */
+.widget-title {
+    border: 1px solid gray;
+}
+
+.widget-content {
+    background-color:#F9F9F9;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.icn {
+
+    border-right: 2px solid #dadada;
+    float: left;
+    padding: 9px 10px 7px 11px;
+}
+/* Breadcrumb */
+#breadcrumb {
+    background-color: #fff;
+    border-bottom: 1px solid #e3ebed;
+}
+#breadcrumb a {
+    padding: 8px 20px 8px 10px;
+    display: inline-block;
+    background-image: url('../img/breadcrumb.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    font-size: 11px;
+    color: #666666;
+}
+#breadcrumb a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+#breadcrumb a:last-child {
+    background-image:none;
+}
+#breadcrumb a.current {
+    font-weight: bold;
+    color: #444444;
+}
+#breadcrumb a i {
+    margin-right: 5px;
+    opacity: .6;
+}
+#breadcrumb a:hover i {
+    margin-right: 5px;
+    opacity: .8;
+}
+.footer{
+    text-align: center;
+
+}
+.footer a:hover{
+    text-decoration: none;
+    color: aquamarine;
+}
